@@ -16,7 +16,7 @@
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="P201SpeechToText">
-                <param name="android-package" value="com.ksutopia.bbtalks.plugins"/>
+                <param name="android-package" value="com.ksutopia.bbtalks.plugins.P201SpeechToText"/>
             </feature>
         </config-file>
  

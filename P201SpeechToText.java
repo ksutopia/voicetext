@@ -39,7 +39,7 @@ public class P201SpeechToText extends CordovaPlugin {
     private static final String TAG = P201SpeechToText.class.getSimpleName();
     private SpeechRecognizer speech = null;
     private Intent recognizerIntent;
-    private Context context= this.cordova.getActivity().getApplicationContext();
+    private Context context;
 
     private CallbackContext callbackContext;
     private P202LanguageDetailsChecker languageDetailsChecker;
@@ -48,6 +48,7 @@ public class P201SpeechToText extends CordovaPlugin {
     public boolean execute(String action, JSONArray args, CallbackContext callbackContext) {
 		Boolean isValidAction = true;
 
+		context= this.cordova.getActivity().getApplicationContext();
     	this.callbackContext= callbackContext;
 
 		// Action selector
