@@ -72,7 +72,7 @@ public class P201SpeechToText extends CordovaPlugin {
     // Get the list of supported languages
     private void getSupportedLanguages() {
     	if (languageDetailsChecker == null){
-    		languageDetailsChecker = new P201LanguageDetailsChecker(callbackContext);
+    		languageDetailsChecker = new P202LanguageDetailsChecker(callbackContext);
     	}
     	// Create and launch get languages intent
     	Intent detailsIntent = new Intent(RecognizerIntent.ACTION_GET_LANGUAGE_DETAILS);
