@@ -13,7 +13,7 @@
  *
  *
  */
-package com.ksutopia.bbtalks;
+package com.ksutopia.bbtalks.plugins;
 
 import java.util.ArrayList;
 import java.util.Locale;

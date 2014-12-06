@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
  
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
-          id="com.phonegap.plugins.speech" version="1.0.0">
+          id="com.ksutopia.bbtalks.plugins" version="1.0.0">
     <name>P201SpeechToText</name>
     <description>Plugin to convert speech to text in background</description>
     <license>MIT</license>
@@ -9,18 +9,18 @@
  
  
     <js-module src="P201SpeechToText.js" name="SpeechToText">
-        <clobbers target="plugins.speechtotext" />
+        <clobbers target="plugins.p201speechtotext" />
     </js-module>
  
     <!-- android -->
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="P201SpeechToText">
-                <param name="android-package" value="com.ksutopia.bbtalks"/>
+                <param name="android-package" value="com.ksutopia.bbtalks.plugins"/>
             </feature>
         </config-file>
  
-        <source-file src="P201SpeechToText.java" target-dir="src/com/ksutopia/bbtalks" />      
-        <source-file src="P202LanguageDetailsChecker.java" target-dir="src/com/ksutopia/bbtalks" />      
+        <source-file src="P201SpeechToText.java" target-dir="src/com/ksutopia/bbtalks/plugins" />      
+        <source-file src="P202LanguageDetailsChecker.java" target-dir="src/com/ksutopia/bbtalks/plugins" />      
      </platform>          
 </plugin>

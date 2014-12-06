@@ -14,7 +14,7 @@
  *
  */
 
-package com.ksutopia.bbtalks;
+package com.ksutopia.bbtalks.plugins;
 
 import java.util.List;
 
