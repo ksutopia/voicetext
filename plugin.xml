@@ -8,7 +8,7 @@
     <keywords>phonegap,speechtotext</keywords>
  
  
-    <js-module src="P201SpeechToText.js" name="SpeechToText">
+    <js-module src="P201SpeechToText.js" name="P201SpeechToText">
         <clobbers target="plugins.p201speechtotext" />
     </js-module>
  
